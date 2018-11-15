@@ -1,3 +1,11 @@
+// find macbook
+function testMacbook(){
+  var macbook = navigator.platform.match(/(Mac)/i) ? true : false;
+  if(macbook) alert(11111);
+}
+
+testMacbook();
+
 //preloader
 $(window).on('load', function(){
   $('#status').fadeOut();  

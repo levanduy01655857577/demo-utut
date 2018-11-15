@@ -223,7 +223,7 @@
 }
 
 .menuTop .listBtnMenu>ul>li>a,
-.menuTop .menuRight .text {
+.menuTop .menuRight a.text {
 	color: #9c1911;
 	text-shadow:
 	0px -1px 0 #fff, 
@@ -339,6 +339,7 @@
 	top: 103px;
 	right: 15px;
 	margin: 0;
+	width: 112.27px;
 }
 
 .menuTop .navbar-header .navbar-toggle img {
@@ -352,11 +353,6 @@
 
 .menuTop .menuRight a.text {
 	padding: 5px 2.5px;
-}
-
-.menuTop .menuRight li.language .text {
-	padding: 0;
-	margin: 5px 2.5px;
 }
 
 .menuTop .menuRight li a img {
