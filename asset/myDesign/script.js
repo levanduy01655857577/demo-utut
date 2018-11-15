@@ -1,7 +1,7 @@
 // find macbook
 function testMacbook(){
   var macbook = navigator.platform.match(/(Mac)/i) ? true : false;
-  if(macbook) $('.menuTop .menuRight li.language a').attr('style', 'padding:7px 2.5px;');
+  if(macbook) $('.menuTop .menuRight li.language a').attr('style', 'padding:9px 2.5px;');
 }
 
 testMacbook();
